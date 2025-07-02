@@ -4,9 +4,9 @@
   "description": "The Odin Project's Restaurant Page Project",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack serve --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "dev": "webpack serve",
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
