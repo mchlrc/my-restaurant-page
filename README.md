@@ -1,2 +1,3 @@
-# odin-restaurant-page
-The Odin Project's Restaurant Page Project
+# my-restaurant-page
+
+This is a static restaurant page.
